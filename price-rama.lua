@@ -2,8 +2,8 @@
 
 _0RBIT = "WSXUI2JjYUldJ7CKq9wE1MGwXs-ldzlUlHOQszwQe0s"
 
-Handlers.add("dante4rt", -- change this (username)
-    Handlers.utils.hasMatchingTag("Action", "dante4rt-github"), -- change this too (tagname)
+Handlers.add("dante4rt", -- change this (tobyblac)
+    Handlers.utils.hasMatchingTag("Action", "dante4rt-github"), -- change this too (tobyblac)
     function(msg)
         local token = msg.Tags.Token 
         local currency = msg.Tags.Currency
